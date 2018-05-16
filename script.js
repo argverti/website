@@ -105,6 +105,8 @@ $(document).ready(function(){
 
 
 
+  $('#LogoutModal').on('click', function (l) {
+    l.location.reload(); });
 
 
 
